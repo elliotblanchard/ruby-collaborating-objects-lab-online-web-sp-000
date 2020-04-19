@@ -28,6 +28,6 @@ class Artist
   end
 
   def self.print_songs
-    self.songs.do {|song| puts(song.name)}
+    songs.do {|song| puts(song.name)}
   end
 end
