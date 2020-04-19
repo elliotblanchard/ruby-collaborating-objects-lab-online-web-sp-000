@@ -26,4 +26,8 @@ class Artist
     end
     return_artist
   end
+
+  def self.print_songs
+    self.songs.do {|song| puts(song.name)}
+  end
 end
